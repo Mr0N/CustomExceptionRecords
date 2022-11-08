@@ -138,12 +138,12 @@
        extends [System.Runtime]System.Exception
 {
   .method public hidebysig specialname rtspecialname 
-          instance void  .ctor() cil managed
+          instance void  .ctor(string message) cil managed
   {
     // Code size       7 (0x7)
     .maxstack  8
     IL_0000:  ldarg.0
-    IL_0001:  call       instance void [System.Runtime]System.Exception::.ctor()
+    IL_0001:  call instance void [System.Private.CoreLib]System.Exception::.ctor(string)
     IL_0006:  ret
   } // end of method Foo::.ctor
 

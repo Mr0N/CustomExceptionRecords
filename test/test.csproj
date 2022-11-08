@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Reference Include="CustomRecordException">
-      <HintPath>D:\DownloadX\runtime.win-x64.microsoft.netcore.ildasm.6.0.0\runtimes\win-x64\native\CustomRecordException.dll</HintPath>
+      <HintPath>CustomRecordException.dll</HintPath>
     </Reference>
   </ItemGroup>
 
