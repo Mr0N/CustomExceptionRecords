@@ -7,4 +7,4 @@ using CustomRecordsException;
 
 record MyException(string message):RecordException(message);
 
-Download from nuget:https://www.nuget.org/packages/CustomRecordException.dll/1.0.0#readme-body-tab
+
